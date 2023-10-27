@@ -1,0 +1,34 @@
+body {
+    background-color: #F9ECEC;
+}
+
+.navbar-style {
+    background-color: #FAD0D0;
+    font-weight: bold;
+}
+
+.home-button,
+.dropdown-style {
+    background-color: #FFB9B9;
+}
+
+.home-carousel-align {
+    height: 617px;
+    width: 430px !important; 
+    /* width was not changing within the carousel even when I used a id selector, so used !important for the most specificity -Halley */
+}
+
+.home-styles {
+    text-align: center;
+}
+
+.home-button {
+    font-weight: bold;
+    text-shadow: white 1px 0 10px;
+}
+
+.home-button:hover {
+    background-color: #d37d7d;
+    color: white;
+    text-shadow: rgb(248, 175, 175) 1px 0 10px;
+}

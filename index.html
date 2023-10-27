@@ -1,14 +1,116 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/styles.css">
-    </head>
-  <body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top 10 Shoujo Anime/Mangas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/styles.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 px-0">
+
+        <!-- Default Nav-Bar and Off-bar Nav Bar-->
+        <nav class="navbar bg-body-tertiary py-0 ">
+          <div class="container-fluid navbar-style py-2 my-0">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler dropdown-style" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end dropdown-style" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Top 10 Shoujo Anime/Mangas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sinatha's Top 10</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/halleyspage.html">Halley's Top 10</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+        <!-- End of Nav Bar -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row pt-3">
+      <div class="col home-styles">
+        <h1>Favorite Shoujo Anime/Mangas</h1>
+      </div>
+    </div>
+
+    <!-- Carousel without controls -->
+    <div class="row my-4">
+      <div class="col-4"></div>
+      <div class="col-4 ">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="./assets/homecarousel.png" class="d-block w-100 home-carousel-align" alt="Magazine cover of the manga, 'Nana'">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="./assets/homecarousel2.jpg" class="d-block w-100 home-carousel-align" alt="Magazine cover of the anime/manga, 'Horimiya'">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="./assets/homecarousel3.jpg" class="d-block w-100 home-carousel-align" alt="Magazine cover of the animes/mangas, 'Say I Love You' and 'My Little Monster'">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="./assets/homecarousel4.png" class="d-block w-100 home-carousel-align" alt="Magazine cover of the manga, 'In the Clear Moonlit Dusk'">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="./assets/homecarousel5.jpg" class="d-block w-100 home-carousel-align" alt="Magazine cover of the manga, 'Futari de Koi wo Suru Riyuu'">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <!-- End of Carousel -->
+
+    <!-- Buttons -->
+    <div class="row">
+      <div class="col"></div>
+      <div class="col d-flex justify-content-center">
+        <a class="btn btn-lg home-button" href="#" role="button">Sinatha's Top 10</a>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <a class="btn btn-lg home-button" href="./pages/halleyspage.html" role="button">Halley's Top 10</a>
+      </div>
+      <div class="col"></div>
+    </div>
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
