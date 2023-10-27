@@ -1,7 +1,36 @@
+/* Used Sinatha's class selectors and styles for the pagination */
+.pagination > li > a
+{
+    background-color: rgb(198, 152, 160);
+    color: black;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: antiquewhite;
+    background-color: rgb(105, 78, 82);
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: rgb(198, 152, 160);
+}
+
+.pagination > .active > a:hover
+{
+    background-color: rgb(105, 78, 82);
+    border: solid 1px antiquewhite;
+}
+
 .page1 {
     background-color: #FFEEDF;
     border-radius: 20px;
-    background-image: url(../assets/bggif.gif);
+    background-image: url(../assets/gifs/bggif.gif);
 }
 
 .title-and-image {
@@ -64,11 +93,12 @@ button.bold-text:hover {
 /* Page-2 Style */
 .page2 {
     background-color: #ffe4d3;
-    background-image: url(../assets/bg-gif.gif);
+    background-image: url(../assets/gifs/snow02.gif);
+    border-radius: 20px;
 }
 
 .green-BG {
-    background-color: rgb(223, 247, 223);
+    background-color: rgb(188, 220, 188);
 }
 
 .textbox-style {
@@ -77,6 +107,11 @@ button.bold-text:hover {
 
 .page3 {
     background-color: #dff6f0;
-    background-image: url(../assets/bggif2.gif);
+    background-image: url(../assets/gifs/starfall-gif-77.gif);
     background-repeat: repeat-x repeat-y;
+}
+
+.page4 {
+    background-color: rgb(251, 220, 220);
+    background-image: url(../assets/gifs/XfQA.gif);
 }
