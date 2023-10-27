@@ -4,8 +4,6 @@
     background-image: url(../assets/bggif.gif);
 }
 
-
-
 .title-and-image {
     display: flex;
     text-align: center;
@@ -38,7 +36,6 @@ button.bold-text:hover {
 
 
 .border-video {
-    border-radius: 20px;
     background-color: #C9A8A8;
 }
 
@@ -76,4 +73,10 @@ button.bold-text:hover {
 
 .textbox-style {
     font-size: larger;
+}
+
+.page3 {
+    background-color: #dff6f0;
+    background-image: url(../assets/bggif2.gif);
+    background-repeat: repeat-x repeat-y;
 }
