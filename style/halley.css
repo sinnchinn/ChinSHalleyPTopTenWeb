@@ -37,8 +37,6 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .accord-color1 {
@@ -46,17 +44,18 @@
 }
 
 .bold-text {
-    font-weight: bold;
-    font-size: 20px;
     color: white;
+    font-weight: bolder;
     text-shadow: rgb(0, 0, 0) 1px 0 3px;
 }
 
 .accord-style {
-    color: white;
-    text-shadow: rgb(0, 0, 0) 1px 0 3px;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: rgb(255, 255, 255) 1px 0 3px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 button.bold-text:hover {
@@ -115,3 +114,17 @@ button.bold-text:hover {
     background-color: rgb(251, 220, 220);
     background-image: url(../assets/gifs/XfQA.gif);
 }
+
+.font {
+    font-family: 'Rokkitt', serif;
+    font-size: 25px;
+}
+
+.hyperlink-style {
+    color: deeppink;
+}
+
+.hyperlink-style:hover {
+    color: white;
+}
+
